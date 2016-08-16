@@ -114,6 +114,14 @@ conLDA$overall[1]
 conGBM$overall[1]
 ```
 
+## Out of Sample Error
+
+We see from the Confusion Matrix that the Random Forest model has a very low out of sample error, the error rate on the new data. Thus, we believe this will allow us to achieve the highest accuracy on our predictions 
+
+```{r }
+print(conRF)
+```
+
 ## Conclusion
 
-The Random Forest model provided the best accuracy so I will apply RF method to the 20 observations in the testing data set.
+The Random Forest model provided the best accuracy. I will apply RF method to the 20 observations in the testing data set.
